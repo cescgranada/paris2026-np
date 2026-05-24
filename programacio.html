@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programació · París 2026 · Nou Patufet</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="assets/logo_NP.png" alt="Nou Patufet">
+    <span>París 2026</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inici</a></li>
+    <li><a href="programacio.html" class="active">Programació</a></li>
+    <li><a href="info.html">Informació</a></li>
+    <li><a href="https://sa-paris.vercel.app/" target="_blank">Itineraris 🗺</a></li>
+  </ul>
+</nav>
+
+<section class="hero" style="padding-bottom:2rem;">
+  <div class="hero-eyebrow">11 al 18 de juny de 2026</div>
+  <h1>Programació del <em>viatge</em></h1>
+  <p class="hero-sub">Vuit dies plens. Fes clic a cada dia per veure tots els detalls.</p>
+</section>
+
+<section class="section" style="padding-top:1rem;">
+
+  <!-- DIA 1 -->
+  <div class="day-card" id="dia1">
+    <div class="day-header" onclick="toggle('dia1')">
+      <div class="day-num"><strong>11</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 1 · Dijous 11 de juny</h3>
+        <p>Sortida · Place Vêndome · Passatges Coberts · París la nuit</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p>Trobada a l'Aeroport del Prat a les <strong>4:30h</strong> · Vol VY8000 PRAT–ORLY (sortida 6:20h, arribada 8:15h) · RER fins a la residència BVJ Montmartre</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Picnic portat de casa</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p><strong>Itinerari 5 — Place Vêndome i els Passatges Coberts</strong> · Les galeries cobertes del segle XIX, joieries, antiquaris i passatges climatitzats del cor de París</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Nit</span>
+        <p>París la nuit des del Trocadéro · Sopar als Grands Boulevards</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 2 -->
+  <div class="day-card" id="dia2">
+    <div class="day-header" onclick="toggle('dia2')">
+      <div class="day-num"><strong>12</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 2 · Divendres 12 de juny</h3>
+        <p>Odéon · Jardins de Luxemburg · Torre Eiffel · Canal de Saint-Martin</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p><strong>Itinerari 3 — Odéon i Jardins de Luxemburg</strong> · El jardí més bonic de París, fonts, estàtues i parterres immaculats al cor de Saint-Germain</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Picnic als Jardins de Luxemburg</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p><strong>Torre Eiffel</strong> · Pugem a la dama de ferro i gaudim de les vistes de París des de dalt</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Sopar</span>
+        <p>Place de la République</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Nit</span>
+        <p><strong>Itinerari 4 — République i el Canal de Saint-Martin</strong> · Ponts, escluses i terrasses al barri més bohemi de París</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 3 -->
+  <div class="day-card" id="dia3">
+    <div class="day-header" onclick="toggle('dia3')">
+      <div class="day-num"><strong>13</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 3 · Dissabte 13 de juny</h3>
+        <p>Versailles · Champs-Élysées · Montmartre · Moulin Rouge</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p><strong>Château de Versailles</strong> · Palau reial, jardins de Le Nôtre i Font de Neptú · El símbol de l'absolutisme francès</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Per la zona de Versailles</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p><strong>Itinerari 14 — Champs-Élysées i l'Étoile</strong> · L'Arc de Triomf i l'avinguda més famosa del món, des de l'Étoile fins a la Concorde</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Sopar</span>
+        <p>Sacré-Cœur</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Nit</span>
+        <p><strong>Itinerari 8 — Sacré-Cœur i Montmartre</strong> · Place du Tertre, el Mur del Je t'aime i el Moulin Rouge</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 4 -->
+  <div class="day-card" id="dia4">
+    <div class="day-header" onclick="toggle('dia4')">
+      <div class="day-num"><strong>14</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 4 · Diumenge 14 de juny</h3>
+        <p>Mercat de les Puces · Le Marais · Place des Vosges · Bateau Mouche</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p><strong>Mercat de les Puces de Saint-Ouen</strong> · El mercat d'antiquaris més gran del món, amb més de 2.000 paradistes</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Als voltants del Centre Pompidou</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p><strong>Itinerari 9 — Le Marais, barri jueu i la Place des Vosges</strong> · La plaça més antiga de París, galeries d'art i el cor medieval de la ciutat</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Sopar</span>
+        <p>Als voltants de la residència</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Nit</span>
+        <p><strong>Bateau Mouche</strong> · Volta pel Sena i vistes nocturnes de la ciutat il·luminada</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 5 -->
+  <div class="day-card" id="dia5">
+    <div class="day-header" onclick="toggle('dia5')">
+      <div class="day-num"><strong>15</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 5 · Dilluns 15 de juny</h3>
+        <p>Museu du Louvre · Île de la Cité · Notre-Dame · Barri Llatí</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p><strong>Museu du Louvre</strong> · La Gioconda, la Venus de Milo i la Victòria de Samotràcia · El museu més visitat del món</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Als voltants del Louvre</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p><strong>Itinerari 6 — Île de la Cité i Hôtel de Ville</strong> · Notre-Dame de París, la Sainte-Chapelle i el cor medieval de la ciutat</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Nit</span>
+        <p>Sopar i passejada pel <strong>Barri Llatí</strong> · Les rues i brasseries del barri dels estudiants</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 6 — DISNEY -->
+  <div class="day-card" id="dia6">
+    <div class="day-header" onclick="toggle('dia6')">
+      <div class="day-num" style="background:var(--blau-mig)"><strong>16</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 6 · Dimarts 16 de juny</h3>
+        <p>✨ Disneyland París — Tot el dia</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-special">
+        <h4>✨ Disneyland París</h4>
+        <p>Parc temàtic + Walt Disney Studios · Dia lliure dins el recinte</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 7 -->
+  <div class="day-card" id="dia7">
+    <div class="day-header" onclick="toggle('dia7')">
+      <div class="day-num"><strong>17</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 7 · Dimecres 17 de juny</h3>
+        <p>Père-Lachaise · Arènes de Lutècia · Gran Mesquita · Sopar de comiat</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p><strong>Itinerari 10 — Cementiri del Père-Lachaise</strong> · Chopin, Proust, Jim Morrison, Édith Piaf · El cementiri-jardí més famós del món</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Place de la Contrascarpe</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p><strong>Place de la Contrascarpe · les Arènes de Lutècia · la Gran Mesquita de París</strong> · Tres cares ben diferents de la ciudad</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Nit</span>
+        <p><strong>Sopar de comiat al Quartier Latin</strong> · L'últim sopar junts a París</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIA 8 -->
+  <div class="day-card" id="dia8">
+    <div class="day-header" onclick="toggle('dia8')">
+      <div class="day-num"><strong>18</strong><small>jun</small></div>
+      <div class="day-info">
+        <h3>Dia 8 · Dijous 18 de juny — Tornada</h3>
+        <p>Pigalle · Vol VY8021 ORLY–PRAT · Arribada 20:05h</p>
+      </div>
+      <span class="day-chevron">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="day-row">
+        <span class="day-franja">Matí</span>
+        <p>Itinerari per la zona de <strong>Pigalle</strong></p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Dinar</span>
+        <p>Per Pigalle</p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Tarda</span>
+        <p>Tornada · <strong>Vol VY8021 ORLY–PRAT</strong> · sortida 18:20h · arribada T1 a les <strong>20:05h</strong></p>
+      </div>
+      <div class="day-row">
+        <span class="day-franja">Recordeu</span>
+        <p>Entrega de notes finals: <strong>divendres 19 de juny</strong></p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <strong>Escola Cooperativa Nou Patufet</strong> · Al Cor de Gràcia · Barcelona<br>
+  Viatge 4t ESO · París 2026 · Generació 2010
+</footer>
+
+<script>
+function toggle(id) {
+  const card = document.getElementById(id);
+  card.classList.toggle('open');
+}
+</script>
+
+</body>
+</html>
